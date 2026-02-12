@@ -1,50 +1,104 @@
-# Welcome to your Expo app 👋
+# 🚀 Expo Super App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+> A production-grade educational mobile application built with Expo & React Native to explore and implement real-world mobile engineering concepts end-to-end.
 
-## Get started
+---
 
-1. Install dependencies
+## 🎯 Objective
 
-   ```bash
-   npm install
-   ```
+Expo Super App is a hands-on systems project designed to demonstrate modern mobile development patterns including authentication, offline-first architecture, animations, state management, testing, CI/CD, and store deployment.
 
-2. Start the app
+This is not a demo app — it is a structured mobile engineering playground.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🧱 Tech Stack
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- Expo (Managed + Prebuild)
+- React Native
+- TypeScript
+- Expo Router
+- WatermelonDB
+- GraphQL / tRPC
+- Reanimated
+- EAS Build & Submit
+- Fastlane
+- Jest + Detox
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📦 Implemented Topics
 
-When you're ready, run:
+### Core Mobile Features
+
+- Authentication (JWT, OAuth, Bearer)
+- Expo Router
+- Splash Screen Management
+- Expo Modules
+- Virtualization
+- Prebuild Configuration
+- Offline Mode Detection
+- Local Database (WatermelonDB)
+- GraphQL / tRPC / WebSockets
+- Reanimated Animations
+- Internationalisation (i18n)
+- Theming (Light / Dark / Dynamic)
+- Push Notifications
+- Deep Linking
+- State Management Strategies
+
+---
+
+### Testing
+
+- Unit Testing
+- Integration Testing
+- End-to-End Testing (Detox)
+
+---
+
+### Deployment & DevOps
+
+- CI/CD Pipeline
+- EAS Build & Submit
+- Fastlane
+- Environment Variables Management
+- App Store Optimization
+- Release Build Process
+
+---
+
+## 🏗 Architectural Goals
+
+- Feature-first modular structure
+- Offline-first data layer
+- Clear separation between UI, domain, and data
+- Environment-based configuration
+- Production-ready build setup
+- Testable architecture
+
+---
+
+## 🧪 Why This Project Exists
+
+This project exists to:
+
+- Deeply understand Expo internals
+- Practice production-level architecture
+- Build confidence in deployment workflows
+- Create a reusable mobile systems reference
+
+---
+
+## 🚀 Running the Project
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
+
+// For native prebuild
+npx expo prebuild
+
+// For production build:
+eas build
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
