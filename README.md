@@ -42,6 +42,7 @@ This is not a demo app — it is a structured mobile engineering playground.
 - GraphQL / tRPC / WebSockets
 - Reanimated Animations
 - Internationalisation (i18n)
+- Accessibility
 - Theming (Light / Dark / Dynamic)
 - Push Notifications
 - Deep Linking
